@@ -12,7 +12,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        //单例
+        let manager = DYYManager.shareManager()
+        manager.test()
+        manager.str1 = "test"
+        manager.str1?.printSomeThings()
+
     }
 
     override func didReceiveMemoryWarning() {
