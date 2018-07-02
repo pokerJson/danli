@@ -18,7 +18,18 @@ class ViewController: UIViewController {
         manager.test()
         manager.str1 = "test"
         manager.str1?.printSomeThings()
+        
+        ///2实例测试下
+        let param = ["userid":"10117","token":"oCjXBM8cx-2EiHpu-IYUO-YhV75caTVlr6FL1oGMxO0-VeQ9","sid":"12"]
+        DYYNetWork.shareManager().postRequestWith(urlString: "http://www.yzpai.cn/rolegame/gift/userAbility", param: param, success: { (data) in
+            let jjj = try!JSONSerialization.jsonObject(with: data as Data, options: JSONSerialization.ReadingOptions.allowFragments)
+            
+            print(jjj)
+        }) { (error) in
+            print(error)
+        }
 
+        
     }
 
     override func didReceiveMemoryWarning() {

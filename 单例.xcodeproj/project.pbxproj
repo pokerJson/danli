@@ -13,6 +13,7 @@
 		28F09C3C20E9DDAF00845055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28F09C3B20E9DDAF00845055 /* Assets.xcassets */; };
 		28F09C3F20E9DDAF00845055 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F09C3D20E9DDAF00845055 /* LaunchScreen.storyboard */; };
 		28F09C4720E9DDD800845055 /* DYYManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F09C4620E9DDD800845055 /* DYYManager.swift */; };
+		28F09C4920E9FA4400845055 /* DYYNetWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F09C4820E9FA4400845055 /* DYYNetWork.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		28F09C3E20E9DDAF00845055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28F09C4020E9DDAF00845055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28F09C4620E9DDD800845055 /* DYYManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DYYManager.swift; sourceTree = "<group>"; };
+		28F09C4820E9FA4400845055 /* DYYNetWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DYYNetWork.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				28F09C3420E9DDAE00845055 /* AppDelegate.swift */,
 				28F09C3620E9DDAE00845055 /* ViewController.swift */,
+				28F09C4820E9FA4400845055 /* DYYNetWork.swift */,
 				28F09C4620E9DDD800845055 /* DYYManager.swift */,
 				28F09C3820E9DDAE00845055 /* Main.storyboard */,
 				28F09C3B20E9DDAF00845055 /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 				28F09C3720E9DDAE00845055 /* ViewController.swift in Sources */,
 				28F09C4720E9DDD800845055 /* DYYManager.swift in Sources */,
 				28F09C3520E9DDAE00845055 /* AppDelegate.swift in Sources */,
+				28F09C4920E9FA4400845055 /* DYYNetWork.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
